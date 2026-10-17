@@ -6,16 +6,6 @@ This project uses machine learning to classify images into two categories: cats 
 
 Histogram of Oriented Gradients (HOG) is used to extract features from images, and a Support Vector Machine (SVM) classifier learns to distinguish between the two categories.
 
-## Technologies Used
-
-- Python
-- NumPy
-- Pillow
-- Scikit-image
-- Scikit-learn
-- Matplotlib
-- Joblib
-
 ## Dataset
 
 The dataset used in this project is Microsoft's Cats vs Dogs dataset.
@@ -33,6 +23,16 @@ After downloading, arrange the images in the following directory structure:
 The dataset is not included in this repository.
 
 The training script loads up to 500 images from each category and skips images that cannot be processed.
+
+## Technologies Used
+
+- Python
+- NumPy
+- Pillow
+- Scikit-image
+- Scikit-learn
+- Matplotlib
+- Joblib
 
 ## Methodology
 
