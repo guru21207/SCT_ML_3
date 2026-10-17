@@ -85,7 +85,7 @@ The model was evaluated on a held-out test set of 200 images.
 ### Confusion Matrix
 
 The confusion matrix visualizes the model's classification results for cats and dogs.
-
+![HOG + SVM Confusion Matrix](plots/hog_svm_confusion_matrix.png)
 The model achieved 73.5% accuracy on the test set. Its performance may vary with different training samples and images.
 
 ## Limitations

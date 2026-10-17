@@ -91,5 +91,6 @@ display = ConfusionMatrixDisplay(
 
 display.plot()
 plt.title("HOG + SVM Confusion Matrix")
+os.makedirs("plots", exist_ok=True)
 plt.savefig("plots/hog_svm_confusion_matrix.png")
 plt.show()
